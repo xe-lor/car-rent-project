@@ -1,0 +1,60 @@
+.h{
+	color: white;
+	text-align: center;
+	font-family: monospace;
+	margin-top: 50px;
+}
+body{
+	background-color: rgb(40, 78, 99);
+	
+}
+.category{
+	margin-left: 300px;
+	color: white;
+	background: linear-gradient(135deg,rgba(53, 154, 190, 0.494),rgba(0, 82, 91, 0.374));
+	backdrop-filter: blur(50px);
+	-webkit-backdrop-filter: blur(10px);
+	text-align: center;
+	font-family: monospace;
+	border-radius: 10px;
+	height: 420px;
+	width: 800px;
+}
+.merc{
+	border-radius: 5px;
+	margin-top: 25px;
+	height: 300px;
+	width: 200px;
+}
+.ford{
+	border-radius: 5px;
+	margin-top: 25px;
+	height: 300px;
+	width: 200px;
+}
+.ren{
+	border-radius: 5px;
+	margin-top: 25px;
+	height: 300px;
+	width: 200px;
+}
+.merc:hover{
+	border: solid 1px rgb(30, 150, 255);
+}
+.ford:hover{
+	border: solid 1px rgb(30, 150, 255);
+}
+.ren:hover{
+	border: solid 1px rgb(30, 150, 255);
+}
+nav{
+	background: linear-gradient(135deg,rgba(53, 154, 190, 0.494),rgba(0, 82, 91, 0.374));
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+}
+li:hover{
+    border-bottom: solid 2px white;
+}
+.category:hover{
+	border: solid 1px rgb(30, 150, 255);
+}
